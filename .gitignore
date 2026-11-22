@@ -1,0 +1,10 @@
+# IDEA
+.idea/
+*.iml
+
+# Maven
+target/
+
+# 系统
+.DS_Store
+Thumbs.db
