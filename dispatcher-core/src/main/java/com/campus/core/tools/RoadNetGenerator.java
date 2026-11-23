@@ -50,7 +50,14 @@ public class RoadNetGenerator {
             }
 
             w.println();
+            w.println("  ],");
+
+            // 充电桩：先写死两个位置（节点 7 和 节点 42）
+            w.println("  \"stations\": [");
+            w.println("    { \"id\": 1, \"node\": 7 },");
+            w.println("    { \"id\": 2, \"node\": 42 }");
             w.println("  ]");
+
             w.println("}");
         }
         System.out.println("roadnet.json 生成完成");
